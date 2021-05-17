@@ -5,9 +5,67 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E1D9FE;
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*Homepage*/
+h1{
+  font-family: "Tienne"
+}
+
+.title1{
+  position: relative;
+  top: 100px;
+  left: 300px;
+  width: 200px;
+  text-align: center;
+}
+.home-content{
+  position: relative;
+  top: 120px;
+  left: 280px;
+  width: 250px;
+  text-align: center;
+  text-align: center;
+  font-size: 14px;
+}  
+
+/*Navbar*/
+.my-navbar li{
+  display: inline;
+  position: relative;
+  top: 75px;
+  left: 570px;
+  padding: 5px;
+}
+
+.btn{
+  background-color: #6C7AD4 !important; 
+  height: 30px;
+  width: 80px;
+  border-radius: 100px;
+  padding: 0px;
+
+}
+.btn a {
+  color: #FFF;
+  font-size: 14px;
+}
+.btn a:hover {
+   color: #00F
+}
+.logo{
+  position: relative;
+  top: 100px;
+  left: 300px;
 }
